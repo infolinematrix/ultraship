@@ -90,13 +90,13 @@ export default function About() {
                 <ItemTitle>Links</ItemTitle>
                 <ItemDescription>
                   <>
-                    <a href="https://ultraship-pi.vercel.app/api/graphql">
-                      https://ultraship-pi.vercel.app/api/graphql
+                    <a href="https://ultraship-eight.vercel.app/api/graphql">
+                      https://ultraship-eight.vercel.app/api/graphql
                     </a>
                   </>
                   <>
                     {" "}
-                    <a href="hhttps://github.com/subhasundardass/ultraship">
+                    <a href="https://github.com/subhasundardass/ultraship">
                       https://github.com/subhasundardass/ultraship
                     </a>
                   </>
