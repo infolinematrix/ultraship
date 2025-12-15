@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## graphql
 
-https://ultraship-pi.vercel.app/api/graphql
+https://ultraship-eight.vercel.app/api/graphql
