@@ -8,7 +8,6 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             Test application .
           </h1>
-
           {/* TECH STACK */}
           <section className="space-y-3">
             <h2 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
@@ -28,8 +27,8 @@ export default function Home() {
                 components
               </li>
               <li>
-                <strong>GraphQL (Apollo)</strong> – Flexible and efficient data
-                fetching
+                <strong>GraphQL (Yoga GraphiQL)</strong> – Flexible and
+                efficient data fetching
               </li>
               <li>
                 <strong>PostgreSQL (Neon Cloud)</strong> – Scalable cloud
@@ -40,7 +39,6 @@ export default function Home() {
               </li>
             </ul>
           </section>
-
           <section className="space-y-3">
             <h2 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
               URLs
@@ -66,6 +64,31 @@ export default function Home() {
               </li>
             </ul>
           </section>
+          Grapgql example
+          <div style={{ padding: 0 }}>
+            <pre
+              style={{
+                // background: "#0f172a",
+                // color: "#e5e7eb",
+                padding: "16px",
+                borderRadius: "8px",
+                width: "100%",
+              }}
+            >
+              <code>{`
+query {
+  listEmployees {
+    id
+    name
+    age
+    designation
+    gender
+    attendence
+  }
+}
+        `}</code>
+            </pre>
+          </div>
         </div>
       </main>
     </div>
